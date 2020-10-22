@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"noImplicitAny": false,
+		"lib": [
+			"es5",
+			"es6",
+			"es7",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"def.d.ts",
+		"src",
+		"assets"
+	],
+	"compileOnSave": false
+}

@@ -1,0 +1,50 @@
+{
+	"ver": "1.0.1",
+	"uuid": "dcc5e287-7c96-436e-9efe-5c163d9e96a7",
+	"extname": ".ts",
+	"declaration": {
+		"components": [
+			{
+				"name": "Hello",
+				"props": [
+					{
+						"name": "sprite",
+						"type": "PixiEntity"
+					},
+					{
+						"name": "label",
+						"type": "PixiEntity"
+					},
+					{
+						"name": "t",
+						"type": "number",
+						"default": 0
+					},
+					{
+						"name": "i",
+						"type": "number",
+						"default": 0
+					}
+				],
+				"methods": [
+					{
+						"name": "awake"
+					},
+					{
+						"name": "start"
+					},
+					{
+						"name": "update",
+						"parameters": [
+							{
+								"name": "delta",
+								"type": "any"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"md5": "d34f51b0dbeb791a79ae377338c58a01"
+}
