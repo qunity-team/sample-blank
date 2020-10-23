@@ -1,5 +1,5 @@
 {
-	"name": "sample-blank",
+	"name": "{projectName}",
 	"engineConfig": {
 		"fps": 60,
 		"designWidth": 750,

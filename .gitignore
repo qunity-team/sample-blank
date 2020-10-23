@@ -4,3 +4,4 @@ dist
 debug
 yarn-error.log
 node_modules
+/sample-blank.iml
