@@ -9,7 +9,7 @@ import {Component, PixiEntity} from 'qunity-pixi';
 export default class Hello extends Component {
 	sprite: PixiEntity;
 	label: PixiEntity;
-	text: 'Hello';
+	text = 'Hello';
 
 	t = 0;
 	i = 0;
