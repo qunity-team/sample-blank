@@ -12,7 +12,6 @@ export default class Hello extends Component {
 	text = 'Hello';
 
 	t = 0;
-	i = 0;
 
 	awake(): void {
 
