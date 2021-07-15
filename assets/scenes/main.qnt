@@ -1,7 +1,7 @@
-const {Doc} = require('qunity');
+const qunity = require('qunity');
 const pixi = require('qunity-pixi');
 
-exports.doc = Doc({type: 'scene', name: 'main'}).kv({
+exports.doc = qunity.Doc({type: 'scene', name: 'main'}).kv({
 	factory: function () {
 		return pixi.Node({name: 'Scenes'}).c([
 			pixi.Node({name: 'MainScene', active: true}).c([
