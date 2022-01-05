@@ -5,11 +5,8 @@
 		"removeComments": true,
 		"noImplicitAny": false,
 		"lib": [
-			"es5",
-			"es6",
-			"es7",
-			"dom",
-			"es2015.promise"
+			"ESNext",
+			"dom"
 		]
 	},
 	"include": [
