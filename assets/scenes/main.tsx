@@ -5,7 +5,7 @@
 import {entityDefs as pixi} from 'qunity-pixi'
 
 export default {
-	type: 'scene',
+	type: 0,
 	name: 'main',
 	factory: function (h) {
 		return <pixi.Node name="Scenes">
