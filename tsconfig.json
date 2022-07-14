@@ -1,9 +1,11 @@
 {
 	"compilerOptions": {
-		"target": "ES5",
+		"target": "ESNext",
 		"experimentalDecorators": true,
 		"removeComments": true,
 		"noImplicitAny": false,
+		"jsx": "react",
+		"jsxFactory": "h",
 		"lib": [
 			"ESNext",
 			"dom"

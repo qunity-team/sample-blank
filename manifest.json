@@ -10,7 +10,7 @@
 	"engine": "pixi",
 	"scene": {
 		"scenes": {
-			"main": "assets/scenes/main.qnt"
+			"main": "assets/scenes/main.tsx"
 		},
 		"entryScene": "main"
 	},

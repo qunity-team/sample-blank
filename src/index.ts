@@ -4,13 +4,13 @@
 
 import {createApp, } from 'qunity-pixi';
 import registerScripts from "register-scripts";
-import registerSceneDocs from "register-sceneDocs";
+import registerDocs from "register-docs";
 import "./need-compile";
 
 let app = createApp();
 
 registerScripts(app);
-registerSceneDocs(app);
+registerDocs(app);
 
 export function launch(){
 	console.log('launch');
